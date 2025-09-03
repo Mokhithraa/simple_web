@@ -1,0 +1,10 @@
+# Node or build folders (if any in future)
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# OS / Editor files
+.DS_Store
+.vscode/
