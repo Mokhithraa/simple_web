@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -30,6 +34,7 @@ nav ul li a {
 
 main {
   padding: 2rem;
+  flex: 1;
 }
 
 footer {
