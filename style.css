@@ -46,3 +46,31 @@ footer {
   bottom: 0;
   width: 100%;
 }
+/* Adding the toggle dark mode*/
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --header-bg: #333;
+  --footer-bg: #222;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  background: var(--header-bg);
+}
+
+footer {
+  background: var(--footer-bg);
+}
+
+/* Dark theme variables */
+body.dark {
+  --bg-color: #121212;
+  --text-color: #eee;
+  --header-bg: #000;
+  --footer-bg: #111;
+}
